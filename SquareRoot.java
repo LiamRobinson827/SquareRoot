@@ -18,6 +18,17 @@ public class SquareRoot {
 
         // Check that the input is not negative
         // TODO: Change this part of the program to repeatedly error check
+        while (radicand > 0) {
+        	
+        	 if (radicand < 0) {
+                 System.err.println("Invalid input!");
+                 System.err.print("Enter a number to square root: ");
+                 radicand = input.nextDouble();
+                 
+             }
+        	 
+        	
+        }
         if (radicand < 0) {
             System.err.println("Invalid input!");
             System.exit(1);
