@@ -21,7 +21,7 @@ public class SquareRoot {
         // TODO: Change this part of the program to repeatedly error check
         while (loopGo == 0) {
         	
-        	//System.out.println("Hi");
+        	System.out.println("Hi");
         	System.err.println("Invalid input!");
         	System.err.print("Enter a number to square root: ");
             radicand = input.nextDouble();
@@ -36,10 +36,6 @@ public class SquareRoot {
              }
         	 
         	
-        }
-        if (radicand < 0) {
-            System.err.println("Invalid input!");
-            System.exit(1);
         }
 
         // Calculate the circumference
