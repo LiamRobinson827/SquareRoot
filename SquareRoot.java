@@ -22,6 +22,7 @@ public class SquareRoot {
         while (loopGo == 0) {
         	
         	//System.out.println("Hi");
+        	System.err.println("Invalid input!");
         	System.err.print("Enter a number to square root: ");
             radicand = input.nextDouble();
         	loopGo = loopGo +1;
