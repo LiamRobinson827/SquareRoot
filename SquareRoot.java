@@ -15,15 +15,22 @@ public class SquareRoot {
         // Ask the user for the diameter
         System.err.print("Enter a number to square root: ");
         double radicand = input.nextDouble();
+        int loopGo = 0;
 
         // Check that the input is not negative
         // TODO: Change this part of the program to repeatedly error check
-        while (radicand > 0) {
+        while (loopGo == 0) {
+        	
+        	//System.out.println("Hi");
+        	System.err.print("Enter a number to square root: ");
+            radicand = input.nextDouble();
+        	loopGo = loopGo +1;
+        	
         	
         	 if (radicand < 0) {
                  System.err.println("Invalid input!");
-                 System.err.print("Enter a number to square root: ");
-                 radicand = input.nextDouble();
+                 loopGo = loopGo - 1;
+                 
                  
              }
         	 
