@@ -18,7 +18,7 @@ public class SquareRoot {
         //int loopGo = 0;
 
         // Check that the input is not negative
-        while (radicand <= 0) {
+        while (radicand < 0) {
         	
         	//System.out.println("Hi");
         	System.err.println("Invalid input!");
